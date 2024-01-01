@@ -1,0 +1,93 @@
+{#contact page #}
+<div class="container-fluid">
+    <div class="row align-items-center bg-light px-lg-5">
+        <div class="col-12 col-md-8">
+            <div class="d-flex justify-content-between">
+                <div class="bg-primary text-white text-center py-2" style="width: 100px;">Tranding</div>
+                <div class="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3"
+                    style="width: calc(100% - 100px); padding-left: 90px;">
+                    <div class="text-truncate"><a class="text-secondary" href="">Labore sit justo amet eos sed, et
+                            sanctus dolor diam eos</a></div>
+                    <div class="text-truncate"><a class="text-secondary" href="">Gubergren elitr amet eirmod et lorem
+                            diam elitr, ut est erat Gubergren elitr amet eirmod et lorem diam elitr, ut est erat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-right d-none d-md-block">
+            Monday, January 01, 2045
+        </div>
+    </div>
+    <div class="row align-items-center py-2 px-lg-5">
+        <div class="col-lg-4">
+            {{page.logo}}
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+            {{page.top_image}}
+        </div>
+    </div>
+</div>
+
+
+{{page.navbar}}
+
+<div class="container-fluid">
+    <div class="container">
+        <nav class="breadcrumb bg-transparent m-0 p-0">
+            <a class="breadcrumb-item" href="#">Home</a>
+            <span class="breadcrumb-item active">Contact</span>
+        </nav>
+    </div>
+</div>
+
+
+<div class="container-fluid py-3">
+    <div class="container">
+        <div class="bg-light py-2 px-4 mb-3">
+            <h3 class="m-0">Contact Us For Any Queries</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="bg-light mb-3" style="padding: 30px;">
+                    {{page.get_in_touch}}
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="contact-form bg-light mb-3" style="padding: 30px;">
+                    <div id="success"></div>
+                    {{page.contact_form}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
+    <div class="row">
+
+        <div class="col-lg-3 col-md-6 mb-5">
+            {{page.footer1}}
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Categories</h4>
+            <div class="d-flex flex-wrap m-n1">
+                {{page.footer_categories}}
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Tags</h4>
+            <div class="d-flex flex-wrap m-n1">
+                {{page.footer_tags}}
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Quick Links</h4>
+            <div class="d-flex flex-column justify-content-start">
+                {{page.quick_links}}
+
+            </div>
+        </div>
+    </div>
+</div>

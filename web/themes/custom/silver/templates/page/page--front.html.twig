@@ -1,0 +1,146 @@
+<div class="container-fluid">
+    <div class="row align-items-center bg-light px-lg-5">
+        <div class="col-12 col-md-8">
+            <div class="d-flex justify-content-between">
+                <div class="bg-primary text-white text-center py-2" style="width: 100px;">Tranding</div>
+                <div class="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3"
+                    style="width: calc(100% - 100px); padding-left: 90px;">
+                    <div class="text-truncate"><a class="text-secondary" href="">Labore sit justo amet eos sed, et
+                            sanctus dolor diam eos</a></div>
+                    <div class="text-truncate"><a class="text-secondary" href="">Gubergren elitr amet eirmod et lorem
+                            diam elitr, ut est erat Gubergren elitr amet eirmod et lorem diam elitr, ut est erat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-right d-none d-md-block">
+            Monday, January 01, 2045
+        </div>
+    </div>
+    <div class="row align-items-center py-2 px-lg-5">
+        <div class="col-lg-4">
+            {{page.logo}}
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+            {{page.top_image}}
+        </div>
+    </div>
+</div>
+
+
+{{page.navbar}}
+
+
+{{page.topnews}}
+
+
+
+<div class="container-fluid py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                {{ page.mainslider }}
+            </div>
+            <div class="col-lg-4">
+                {{ page.categories }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-3">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+            <h3 class="m-0">Featured</h3>
+            <a class="text-secondary font-weight-medium text-decoration-none" href="">View All</a>
+        </div>
+        {{ page.featured1 }}
+
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 py-3">
+                {{page.business}}
+            </div>
+        </div>
+        <div class="col-lg-6 py-3">
+            {{ page.technology }}
+        </div>
+        <div class="col-lg-6 py-3">
+            {{ page.entertainment }}
+        </div>
+        <div class="col-lg-6 py-3">
+            {{ page.sports }}
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container-fluid py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                {{page.popular}}
+                <div class="mb-3 pb-3">
+                    <a href="">
+                        {{ page.top_image }}
+                    </a>
+                </div>
+
+                {{ page.latest }}
+            </div>
+            <div class="col-lg-4 pt-3 pt-lg-0">
+                {{ page.follow_us }}
+                {{ page.newsletter }}
+                {{ page.image_1 }}
+
+
+
+                <div class="pb-3">
+                    {{page.trending}}
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Tags</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            {{page.footer_tags}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
+    <div class="row">
+
+        <div class="col-lg-3 col-md-6 mb-5">
+            {{page.footer1}}
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Categories</h4>
+            <div class="d-flex flex-wrap m-n1">
+                {{page.footer_categories}}
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Tags</h4>
+            <div class="d-flex flex-wrap m-n1">
+                {{page.footer_tags}}
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Quick Links</h4>
+            <div class="d-flex flex-column justify-content-start">
+                {{page.quick_links}}
+
+            </div>
+        </div>
+    </div>
+</div>
